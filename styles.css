@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap%27%27');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+    height: 122px;
+    width: 99vw;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 20px 0px #8B8B8BA6;
+}
+.menu{
+    justify-self: right;
+    margin-right: 33px;
+}
+
+.logo{
+    margin-left: 19px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    width: 209px;
+    height: 104px;
+}
+li{
+    list-style: none;
+}
+.mnu{
+    font-family: Open Sans, sans serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 44px;
+    font-size: 24px;
+    color: #777777;
+}
+.firstSection{
+margin-top: 0px;
+}
+.banner{
+    width: 99vw;
+    height: 235px;
+}
+h1{
+    font-family: Open Sans, sans serif; 
+    font-size: 60px;
+    text-align: center;
+    margin-top: 68px;
+    margin-bottom: 83px;
+}
+h2{
+    font-family: Open Sans, sans serif; 
+    font-size: 44px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 61px;
+    margin-bottom: 61px;
+}
+h3{
+    font-family: Open Sans, sans serif; 
+    font-size: 39px;
+    color: #000000;
+   
+}
+.secondSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.woman01{
+    width: 400px;
+    height: 600px;
+    margin-left: 113px;
+}
+.woman02{
+    width: 600px;
+    height: 757.94px;
+    margin-left: 54px;
+    margin-right: 113px;
+}
+.thirdSection{
+    margin-top: 207.6px;
+    width: 99vw;
+    height: 662px;
+    background-color: #C2185B;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imgcard{
+    width: 260px;
+    height: 300px;
+}
+.card{
+    
+    width: 260px;
+    height: 388px; 
+    background-color: #FFFFFF;
+}
+.textcard{
+    font-family: Open Sans, sans serif; 
+    margin-left: 10px;
+    font-size: 16px;
+    text-align:left;
+}
+.pricecard{
+    font-family: Open Sans, sans serif; 
+    margin-left: 10px;
+    font-size: 17px;
+    text-align:left;
+}
+.forthSection{
+    margin-top: 163px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.subSection01{
+    flex-direction:column;
+}
+.description{
+    width: 585px;
+    height: 144px;
+    margin-left: 127px; 
+}
+.details{
+    width: 403px;
+    height: 99px;
+    margin-left: 127px;
+    font-family: Open Sans, sans serif;
+    background-color:#C2185B;
+    padding: 23,85,23,85;
+    color:#FFFFFF;
+    font-size: 39px;
+    border-color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+.imgsub01{
+    width: 513px;
+    height: 663px;
+    margin-left: 127px;
+}
+.imgsub02{
+    width: 507px;
+    height: 939px;
+    margin-left: 28px;
+    margin-bottom: 116px;
+
+}
+.pageFooter{
+    display: flex;
+    justify-content: space-between;
+    width: 99vw;
+    height: 248px;
+    background-color: #C2185B;
+}
+.footerAside{
+    margin-left: 127px;
+}
+.flogo{
+    margin-top: 19px;
+    width: 233px;
+    height: 123px;
+}
+.info{
+    width: 255px;
+    height: 91px;
+    font-family: Open Sans, sans serif; 
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footerBside{
+    display: flex;
+    justify-content: space-between;
+     margin-right: 200px;
+}
+.fmnuinst{
+    margin-top: 56px;
+    width: 246px;
+    height: 131px;
+    font-family: Open Sans, sans serif; 
+    font-size: 16px;
+    color: #FFFFFF;
+    list-style: none;
+}
+.fmnucat{
+    margin-top: 56px;
+    width: 246px;
+    height: 131px;
+    font-family: Open Sans, sans serif; 
+    font-size: 16px;
+    color: #FFFFFF;
+    list-style: none;
+}
+.item{
+    font-weight:bold;
+}
